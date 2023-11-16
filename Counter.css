@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-value {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.counter-btn {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  transition: background-color 0.3s;
+}
+
+.increment-btn {
+  background-color: #4caf50;
+}
+
+.decrement-btn {
+  background-color: #f44336;
+}
+
+.counter-btn:hover {
+  opacity: 0.8;
+}
